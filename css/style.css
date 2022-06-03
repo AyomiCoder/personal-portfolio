@@ -155,19 +155,19 @@
     font-size: 25px;
   }
   #container .dots {
-    margin-left: 17%;
+    margin-left: 15%;
     height: 200px;
     width: 280px;
     margin-top: 76%;
   }
   #container .passport {
-    margin-left: 32%;
+    margin-left: 30%;
     height: 140px;
     width: 130px;
     margin-top: 86%;
   }
   #container .icons {
-    margin-left: 18%;
+    margin-left: 16%;
     height: 200px;
     width: 250px;
     margin-top: 76%;
@@ -178,7 +178,7 @@
   #container .info {
     font-size: 14px;
     text-align: center;
-    margin-left: 14%;
+    margin-left: 12%;
   }
   .brand-icon {
     margin-top: 2%;
