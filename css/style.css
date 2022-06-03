@@ -34,6 +34,11 @@
   color: #0a0945;
 }
 
+#container .info a{
+  text-decoration: none;
+  color: #0a0945;
+}
+
 .brand-icon .fa-brands {
   margin-left: 0;
   margin-top: 5%;
@@ -142,90 +147,104 @@
 }
 
 @media (max-width: 425px) {
+
+  #container{
+    margin: 0;
+  }
   #container h1 {
     font-size: 25px;
   }
   #container .dots {
-    margin-left: 11%;
+    margin-left: 17%;
     height: 200px;
-    width: 250px;
-    margin-top: 70%;
+    width: 280px;
+    margin-top: 76%;
   }
   #container .passport {
-    margin-left: 23%;
+    margin-left: 32%;
     height: 140px;
     width: 130px;
-    margin-top: 78%;
+    margin-top: 86%;
   }
   #container .icons {
-    margin-left: 10%;
+    margin-left: 18%;
     height: 200px;
     width: 250px;
-    margin-top: 70%;
+    margin-top: 76%;
   }
   #container .bio-info {
     width: 100%;
   }
   #container .info {
-    font-size: 11px;
+    font-size: 14px;
     text-align: center;
-    margin-left: 11%;
+    margin-left: 14%;
   }
   .brand-icon {
+    margin-top: 2%;
     margin-left: 35%;
+    margin-bottom: 10%;
+  }
+
+  .brand-icon .fa-brands{
+    padding: 10px;
   }
 }
+
+
 
 @media (max-width: 375px) {
   #container h1 {
     font-size: 25px;
   }
   #container .dots {
-    margin-left: 7%;
+    margin-left: 20%;
     height: 180px;
     width: 230px;
-    margin-top: 83%;
+    margin-top: 90%;
   }
   #container .passport {
-    margin-left: 22%;
+    margin-left: 32%;
     height: 130px;
     width: 120px;
-    margin-top: 91%;
+    margin-top: 100%;
   }
   #container .icons {
-    margin-left: 6%;
+    margin-left: 17%;
     height: 180px;
     width: 230px;
-    margin-top: 83%;
+    margin-top: 90%;
   }
   #container .bio-info {
     width: 100%;
   }
   #container .info {
-    font-size: 11px;
+    font-size: 13px;
     text-align: center;
-    margin-left: 6%;
+    margin-left: 12%;
   }
   .brand-icon {
     margin-left: 35%;
   }
+
+
 }
 
 @media (max-width: 320px) {
   #container .dots {
-    margin-left: 5%;
+    margin-left: 12%;
     height: 180px;
     width: 230px;
     margin-top: 103%;
   }
   #container .passport {
-    margin-left: 20%;
+    margin-left: 27%;
     height: 130px;
     width: 120px;
     margin-top: 111%;
   }
   #container .icons {
-    margin-left: 8%;
+    margin-left: 15%;
     height: 140px;
     width: 200px;
     margin-top: 110%;
@@ -233,9 +252,35 @@
   #container .info {
     font-size: 11px;
     text-align: center;
-    margin-left: 3%;
+    margin-left: 8%;
   }
   .brand-icon {
     margin-left: 30%;
+  }
+}
+
+@media (max-width: 280px){
+  #container .dots {
+    margin-left: 13%;
+    height: 140px;
+    width: 210px;
+    margin-top: 120%;
+  }
+  #container .passport {
+    margin-left: 27%;
+    height: 130px;
+    width: 120px;
+    margin-top: 130%;
+  }
+  #container .icons {
+    margin-left: 15%;
+    height: 100px;
+    width: 170px;
+    margin-top: 120%;
+  }
+  #container .info {
+    font-size: 11px;
+    text-align: center;
+    margin-left: 5%;
   }
 }
