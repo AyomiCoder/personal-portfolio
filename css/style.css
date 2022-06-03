@@ -151,8 +151,14 @@
   #container{
     margin: 0;
   }
+
+  #container h2{
+    margin-left: 4%;
+  }
+
   #container h1 {
     font-size: 25px;
+    margin-left: 4%;
   }
   #container .dots {
     margin-left: 15%;
