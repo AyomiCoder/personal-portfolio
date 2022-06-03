@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@500&display=swap");
+#container {
+  margin-top: 12%;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+#container h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #0a0945;
+}
+
+#container h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+  color: #0a0945;
+}
+
+#container .bio-info {
+  color: #0a0945;
+  font-weight: lighter;
+  font-family: 'Montserrat', sans-serif;
+  width: 35%;
+  word-break: break-word;
+}
+
+#container .info {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  color: #0a0945;
+}
+
+.brand-icon .fa-brands {
+  margin-left: 0;
+  margin-top: 5%;
+  color: #0a0945;
+  padding: 7px;
+}
+
+#container .dots {
+  position: absolute;
+  margin-left: 42%;
+  height: 300px;
+  width: 400px;
+  margin-top: 0%;
+  -webkit-animation: pulse;
+          animation: pulse;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+#container .passport {
+  position: absolute;
+  margin-left: 50%;
+  height: 250px;
+  width: 240px;
+  margin-top: 4.5%;
+}
+
+#container .icons {
+  position: absolute;
+  margin-left: 45%;
+  height: 350px;
+  width: 400px;
+  margin-top: 0%;
+  -webkit-animation: jackInTheBox;
+          animation: jackInTheBox;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@media (max-width: 1054px) {
+  #container .dots {
+    margin-left: 45%;
+    height: 250px;
+    width: 300px;
+    margin-top: 5%;
+  }
+  #container .passport {
+    margin-left: 50%;
+    height: 170px;
+    width: 160px;
+    margin-top: 10.5%;
+  }
+  #container .icons {
+    margin-left: 43%;
+    height: 250px;
+    width: 300px;
+    margin-top: 8%;
+  }
+  #container {
+    margin-right: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  #container {
+    margin-left: 12%;
+  }
+  #container .dots {
+    margin-left: 20%;
+    height: 250px;
+    width: 300px;
+    margin-top: 45%;
+  }
+  #container .passport {
+    margin-left: 27%;
+    height: 170px;
+    width: 160px;
+    margin-top: 48%;
+  }
+  #container .icons {
+    margin-left: 20%;
+    height: 250px;
+    width: 300px;
+    margin-top: 45%;
+  }
+  #container h2 {
+    text-align: center;
+  }
+  #container h1 {
+    text-align: center;
+  }
+  #container .bio-info {
+    text-align: center;
+    width: 100%;
+  }
+  #container .info {
+    font-size: 14px;
+    text-align: center;
+    margin-left: 18%;
+  }
+  .brand-icon {
+    margin-left: 40%;
+  }
+}
+
+@media (max-width: 425px) {
+  #container h1 {
+    font-size: 25px;
+  }
+  #container .dots {
+    margin-left: 11%;
+    height: 200px;
+    width: 250px;
+    margin-top: 70%;
+  }
+  #container .passport {
+    margin-left: 23%;
+    height: 140px;
+    width: 130px;
+    margin-top: 78%;
+  }
+  #container .icons {
+    margin-left: 10%;
+    height: 200px;
+    width: 250px;
+    margin-top: 70%;
+  }
+  #container .bio-info {
+    width: 100%;
+  }
+  #container .info {
+    font-size: 11px;
+    text-align: center;
+    margin-left: 11%;
+  }
+  .brand-icon {
+    margin-left: 35%;
+  }
+}
+
+@media (max-width: 375px) {
+  #container h1 {
+    font-size: 25px;
+  }
+  #container .dots {
+    margin-left: 7%;
+    height: 180px;
+    width: 230px;
+    margin-top: 83%;
+  }
+  #container .passport {
+    margin-left: 22%;
+    height: 130px;
+    width: 120px;
+    margin-top: 91%;
+  }
+  #container .icons {
+    margin-left: 6%;
+    height: 180px;
+    width: 230px;
+    margin-top: 83%;
+  }
+  #container .bio-info {
+    width: 100%;
+  }
+  #container .info {
+    font-size: 11px;
+    text-align: center;
+    margin-left: 6%;
+  }
+  .brand-icon {
+    margin-left: 35%;
+  }
+}
+
+@media (max-width: 320px) {
+  #container .dots {
+    margin-left: 5%;
+    height: 180px;
+    width: 230px;
+    margin-top: 103%;
+  }
+  #container .passport {
+    margin-left: 20%;
+    height: 130px;
+    width: 120px;
+    margin-top: 111%;
+  }
+  #container .icons {
+    margin-left: 8%;
+    height: 140px;
+    width: 200px;
+    margin-top: 110%;
+  }
+  #container .info {
+    font-size: 11px;
+    text-align: center;
+    margin-left: 3%;
+  }
+  .brand-icon {
+    margin-left: 30%;
+  }
+}
